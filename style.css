@@ -1,6 +1,29 @@
 html {
     background-color: #1BA1AD;
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-position: -20% 50%, 120% -60%;
+    background-position: -20% 70%, 120% -60%;
     background-repeat: no-repeat;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#card {
+    background-color: floralwhite;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
 }

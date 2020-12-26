@@ -1,0 +1,6 @@
+html {
+    background-color: #1BA1AD;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: -20% 50%, 120% -60%;
+    background-repeat: no-repeat;
+}
